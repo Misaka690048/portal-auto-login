@@ -1,0 +1,26 @@
+# 保存的认证页面和截图，可能包含个人信息
+/page-source/
+/prtsc/
+
+# 安装包：单独上传到 GitHub Releases
+/dist/
+*.crx
+
+# 私钥：不要上传
+*.pem
+*.key
+*.p12
+*.pfx
+
+# 本地环境配置
+.env
+.env.*
+
+# 依赖和临时文件
+node_modules/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+*~
+

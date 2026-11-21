@@ -1,0 +1,9 @@
+{
+  "name": "portal-auto-login",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/background.test.js && node tests/content.test.js && node tests/portal-source.test.js",
+    "check": "node --check extension/background.js && node --check extension/content.js && node --check extension/popup.js && node --check extension/connectivity.js"
+  }
+}
